@@ -7,8 +7,8 @@ const sleep = require('util').promisify(setTimeout);
 
 const startBot = () => {
     const bot = mineflayer.createBot({
-        host: process.env.IP,
-        username: 'Uptimer'
+        host: TGDP.aternos.me:35999,
+        username: 'AFK'
     })
 
     bot.on('login', async() => {
